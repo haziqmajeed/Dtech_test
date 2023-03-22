@@ -1,0 +1,13 @@
+Create DB with name dtechlogger;
+
+Use dtechlogger;
+
+CREATE TABLE detail (
+    id INT NOT NULL AUTO_INCREMENT,
+    originator VARCHAR(50),
+    filename VARCHAR(100),
+    status VARCHAR(100),
+    PRIMARY KEY (id)
+);
+
+

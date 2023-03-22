@@ -1,0 +1,24 @@
+{
+  "name": "part_1",
+  "version": "1.0.0",
+  "description": "Using NodeJS and ExpressJS write these APIs\r Use any library",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-form-data": "^2.0.22",
+    "express-validator": "^6.15.0",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "sharp": "^0.31.3",
+    "util": "^0.12.5"
+  }
+}
